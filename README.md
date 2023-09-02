@@ -25,7 +25,7 @@ metrics:
 - bertscore
 - accuracy
 library_name: adapter-transformers
-pipeline_tag: question-answering
+pipeline_tag: text-classification
 tags:
 - medical
 - climate
