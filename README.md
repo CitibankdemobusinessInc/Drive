@@ -1,4 +1,52 @@
-# Model Card for [Model ID]
+---
+license: openrail
+datasets:
+- fka/awesome-chatgpt-prompts
+- allenai/dolma
+- garage-bAInd/Open-Platypus
+- Open-Orca/OpenOrca
+- BAAI/COIG-PC
+- nampdn-ai/tiny-codes
+- PygmalionAI/PIPPA
+- Open-Orca/FLAN
+- b-mc2/sql-create-context
+- Anthropic/hh-rlhf
+language:
+- en
+metrics:
+- code_eval
+- cer
+- chrf
+- charcut_mt
+- character
+- brier_score
+- bleurt
+- bleu
+- bertscore
+- accuracy
+library_name: diffusers
+pipeline_tag: feature-extraction
+tags:
+- medical
+- climate
+- code
+- art
+- music
+- legal
+- finance
+- biology
+- chemistry
+---
+# Model Card for 
+
+@misc {james_burvel_o'callaghan_iii_2023,
+	author       = { {James Burvel O'Callaghan III} },
+	title        = { creativeml-openrail-m (Revision 8332ffb) },
+	year         = 2023,
+	url          = { https://huggingface.co/Admin08077/creativeml-openrail-m },
+	doi          = { 10.57967/hf/1057 },
+	publisher    = { Hugging Face }
+}
 
 ## Model Details
 
