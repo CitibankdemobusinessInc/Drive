@@ -1,29 +1,7 @@
 ---
 license: openrail
-datasets:
-- fka/awesome-chatgpt-prompts
-- allenai/dolma
-- garage-bAInd/Open-Platypus
-- Open-Orca/OpenOrca
-- BAAI/COIG-PC
-- nampdn-ai/tiny-codes
-- PygmalionAI/PIPPA
-- Open-Orca/FLAN
-- b-mc2/sql-create-context
-- Anthropic/hh-rlhf
 language:
 - en
-metrics:
-- code_eval
-- cer
-- chrf
-- charcut_mt
-- character
-- brier_score
-- bleurt
-- bleu
-- bertscore
-- accuracy
 library_name: adapter-transformers
 pipeline_tag: text-classification
 tags:
@@ -78,15 +56,6 @@ To get started with the model, consult the repositories and datasets mentioned b
 
 The model was trained on a diverse set of datasets including but not limited to:
 
-- fka/awesome-chatgpt-prompts
-- Anthropic/hh-rlhf
-- b-mc2/sql-create-context
-- Open-Orca/FLAN
-- nampdn-ai/tiny-codes
-- Open-Orca/OpenOrca
-- BAAI/COIG-PC
-- garage-bAInd/Open-Platypus
-- allenai/dolma
 
 ### Training Procedure
 
@@ -117,16 +86,7 @@ The model demonstrated remarkable progress during its training period, achieving
 
 The model's performance is evaluated using a comprehensive set of metrics:
 
-- Accuracy
-- BERTScore
-- BLEU
-- BLEURT
-- Brier Score
-- CER
-- Character
-- Charcut_MT
-- CHRF
-- Code Eval
+
 
 ### Results
 
