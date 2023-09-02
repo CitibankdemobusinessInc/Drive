@@ -24,8 +24,8 @@ metrics:
 - bleu
 - bertscore
 - accuracy
-library_name: diffusers
-pipeline_tag: feature-extraction
+library_name: adapter-transformers
+pipeline_tag: question-answering
 tags:
 - medical
 - climate
