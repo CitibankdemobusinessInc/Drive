@@ -1,11 +1,11 @@
 {
     "models": [
         {
-            "name": "finetuned_bert_model",
+            "name": "pytorch_model",
             "version": "1.0",
             "task": "classification",
-            "path": "/content/drive/MyDrive/000/finetuned_bert_with_validation.pt",
-            "description": "Fine-tuned BERT model."
+            "path": "creativeml-openrail-m/pytorch_model.bin",
+            "description": "Fine-tuned pytorch model."
         }
     ]
 }
